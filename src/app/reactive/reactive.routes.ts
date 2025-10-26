@@ -9,12 +9,12 @@ export const reactiveRoutes: Routes = [
     children: [
       {
         path: 'basic',
-        title: 'Básicos',
+        title: 'Basic',
         component: BasicPageComponent,
       },
       {
         path: 'dynamic',
-        title: 'Dinámicos',
+        title: 'Dynamic',
         component: DynamicPageComponent,
       },
       {
