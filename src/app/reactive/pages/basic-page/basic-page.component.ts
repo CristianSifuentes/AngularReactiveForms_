@@ -17,7 +17,8 @@ import { FormUtils } from '../../../utils/form-utils';
 export class BasicPageComponent {
   private fb = inject(FormBuilder);
   formUtils = FormUtils;
-
+  // reactive form you can manage the information form typeScript
+  // 
   myForm: FormGroup = this.fb.group({
     name: ['', [Validators.required, Validators.minLength(3)]],
     price: [0, [Validators.required, Validators.min(10)]],
